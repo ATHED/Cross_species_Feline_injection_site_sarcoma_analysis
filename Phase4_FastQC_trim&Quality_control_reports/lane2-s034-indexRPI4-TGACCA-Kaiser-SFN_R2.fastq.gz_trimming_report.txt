@@ -1,0 +1,159 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../phase2_fastq/lane2-s034-indexRPI4-TGACCA-Kaiser-SFN_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.8.1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: --outdir ../phase2_fastq_trimmed_fastqc/
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8.1 with Python 2.7.8
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../phase2_fastq/lane2-s034-indexRPI4-TGACCA-Kaiser-SFN_R2.fastq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1236.92 s (37 us/read; 1.63 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              33,705,342
+Reads with adapters:                12,505,184 (37.1%)
+Reads written (passing filters):    33,705,342 (100.0%)
+
+Total basepairs processed: 3,404,239,542 bp
+Quality-trimmed:              18,742,712 bp (0.6%)
+Total written (filtered):  3,358,549,199 bp (98.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 12505184 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 27.9%
+  C: 19.6%
+  G: 10.8%
+  T: 41.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	7481382	8426335.5	0	7481382
+2	1685739	2106583.9	0	1685739
+3	639996	526646.0	0	639996
+4	394172	131661.5	0	394172
+5	1281059	32915.4	0	1281059
+6	1020479	8228.8	0	1020479
+7	353	2057.2	0	353
+8	71	514.3	0	71
+9	181	128.6	0	37 144
+10	311	32.1	1	5 306
+11	363	8.0	1	2 361
+12	27	2.0	1	2 25
+13	10	0.5	1	0 10
+14	8	0.5	1	4 4
+15	7	0.5	1	1 6
+16	11	0.5	1	2 9
+17	37	0.5	1	4 33
+18	20	0.5	1	0 20
+19	8	0.5	1	2 6
+20	9	0.5	1	1 8
+21	6	0.5	1	4 2
+22	12	0.5	1	2 10
+23	12	0.5	1	1 11
+24	10	0.5	1	5 5
+25	5	0.5	1	1 4
+26	8	0.5	1	6 2
+27	5	0.5	1	2 3
+28	30	0.5	1	3 27
+29	7	0.5	1	1 6
+30	10	0.5	1	1 9
+31	7	0.5	1	0 7
+32	4	0.5	1	2 2
+33	12	0.5	1	1 11
+34	7	0.5	1	0 7
+35	9	0.5	1	0 9
+36	41	0.5	1	4 37
+37	9	0.5	1	1 8
+38	15	0.5	1	1 14
+39	4	0.5	1	0 4
+40	9	0.5	1	0 9
+41	17	0.5	1	2 15
+42	7	0.5	1	2 5
+43	9	0.5	1	0 9
+44	7	0.5	1	1 6
+45	3	0.5	1	1 2
+46	2	0.5	1	0 2
+47	10	0.5	1	0 10
+48	38	0.5	1	1 37
+49	8	0.5	1	0 8
+50	14	0.5	1	1 13
+51	12	0.5	1	0 12
+52	23	0.5	1	0 23
+53	17	0.5	1	3 14
+54	16	0.5	1	1 15
+55	7	0.5	1	0 7
+56	15	0.5	1	0 15
+57	13	0.5	1	1 12
+58	11	0.5	1	1 10
+59	9	0.5	1	4 5
+60	18	0.5	1	0 18
+61	19	0.5	1	0 19
+62	13	0.5	1	1 12
+63	13	0.5	1	0 13
+64	32	0.5	1	0 32
+65	21	0.5	1	0 21
+66	22	0.5	1	1 21
+67	31	0.5	1	1 30
+68	19	0.5	1	4 15
+69	15	0.5	1	2 13
+70	6	0.5	1	0 6
+71	9	0.5	1	0 9
+72	4	0.5	1	0 4
+73	1	0.5	1	0 1
+74	15	0.5	1	0 15
+75	8	0.5	1	0 8
+76	7	0.5	1	0 7
+77	13	0.5	1	2 11
+78	10	0.5	1	0 10
+79	10	0.5	1	0 10
+80	7	0.5	1	0 7
+81	7	0.5	1	1 6
+82	9	0.5	1	1 8
+83	4	0.5	1	0 4
+84	6	0.5	1	0 6
+85	13	0.5	1	0 13
+86	2	0.5	1	0 2
+87	9	0.5	1	1 8
+88	12	0.5	1	3 9
+89	11	0.5	1	0 11
+90	6	0.5	1	0 6
+91	20	0.5	1	0 20
+92	12	0.5	1	0 12
+93	13	0.5	1	0 13
+94	11	0.5	1	0 11
+95	1	0.5	1	0 1
+96	6	0.5	1	0 6
+97	13	0.5	1	1 12
+98	13	0.5	1	0 13
+99	6	0.5	1	0 6
+100	9	0.5	1	1 8
+101	5	0.5	1	2 3
+
+
+RUN STATISTICS FOR INPUT FILE: ../phase2_fastq/lane2-s034-indexRPI4-TGACCA-Kaiser-SFN_R2.fastq.gz
+=============================================
+33705342 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 33705342
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 150195 (0.45%)

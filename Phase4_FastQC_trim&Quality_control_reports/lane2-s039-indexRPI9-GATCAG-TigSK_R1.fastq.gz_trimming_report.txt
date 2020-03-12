@@ -1,0 +1,156 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../phase2_fastq/lane2-s039-indexRPI9-GATCAG-TigSK_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.8.1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: --outdir ../phase2_fastq_trimmed_fastqc/
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8.1 with Python 2.7.8
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../phase2_fastq/lane2-s039-indexRPI9-GATCAG-TigSK_R1.fastq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1513.97 s (37 us/read; 1.64 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              41,422,134
+Reads with adapters:                15,079,746 (36.4%)
+Reads written (passing filters):    41,422,134 (100.0%)
+
+Total basepairs processed: 4,183,635,534 bp
+Quality-trimmed:               3,452,649 bp (0.1%)
+Total written (filtered):  4,085,106,099 bp (97.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 15079746 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 39.5%
+  C: 23.0%
+  G: 17.2%
+  T: 20.2%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8763435	10355533.5	0	8763435
+2	1374987	2588883.4	0	1374987
+3	616171	647220.8	0	616171
+4	1037680	161805.2	0	1037680
+5	454815	40451.3	0	454815
+6	71994	10112.8	0	71994
+7	63021	2528.2	0	63021
+8	94090	632.1	0	94090
+9	58938	158.0	0	58356 582
+10	57351	39.5	1	55914 1437
+11	58766	9.9	1	57448 1318
+12	47573	2.5	1	46399 1174
+13	40152	0.6	1	39204 948
+14	41642	0.6	1	40674 968
+15	38002	0.6	1	37040 962
+16	43651	0.6	1	42572 1079
+17	40746	0.6	1	39801 945
+18	41123	0.6	1	40092 1031
+19	49347	0.6	1	48290 1057
+20	60064	0.6	1	58631 1433
+21	53259	0.6	1	52167 1092
+22	47042	0.6	1	46014 1028
+23	57055	0.6	1	55907 1148
+24	183729	0.6	1	179691 4038
+25	58018	0.6	1	56610 1408
+26	75643	0.6	1	73862 1781
+27	528295	0.6	1	516282 12013
+28	51507	0.6	1	50232 1275
+29	81197	0.6	1	79068 2129
+30	212959	0.6	1	207587 5372
+31	37552	0.6	1	36587 965
+32	86776	0.6	1	84650 2126
+33	82921	0.6	1	80989 1932
+34	35469	0.6	1	34602 867
+35	33470	0.6	1	32621 849
+36	21104	0.6	1	20558 546
+37	26120	0.6	1	25478 642
+38	35158	0.6	1	34393 765
+39	19001	0.6	1	18567 434
+40	16571	0.6	1	16113 458
+41	25490	0.6	1	25177 313
+42	6804	0.6	1	6556 248
+43	11571	0.6	1	11326 245
+44	11977	0.6	1	11707 270
+45	11725	0.6	1	11487 238
+46	11337	0.6	1	11100 237
+47	9943	0.6	1	9732 211
+48	9139	0.6	1	8938 201
+49	8543	0.6	1	8378 165
+50	7905	0.6	1	7720 185
+51	7874	0.6	1	7692 182
+52	8037	0.6	1	7822 215
+53	8117	0.6	1	7932 185
+54	7532	0.6	1	7354 178
+55	6810	0.6	1	6660 150
+56	5803	0.6	1	5657 146
+57	6592	0.6	1	6432 160
+58	5387	0.6	1	5272 115
+59	5363	0.6	1	5235 128
+60	4655	0.6	1	4537 118
+61	4607	0.6	1	4521 86
+62	5045	0.6	1	4933 112
+63	4167	0.6	1	4059 108
+64	3893	0.6	1	3809 84
+65	3966	0.6	1	3858 108
+66	4214	0.6	1	4089 125
+67	5359	0.6	1	5245 114
+68	8217	0.6	1	8035 182
+69	5133	0.6	1	5030 103
+70	4539	0.6	1	4411 128
+71	3510	0.6	1	3424 86
+72	5183	0.6	1	5070 113
+73	3022	0.6	1	2904 118
+74	7161	0.6	1	6972 189
+75	8622	0.6	1	8480 142
+76	6812	0.6	1	6698 114
+77	4778	0.6	1	4715 63
+78	3323	0.6	1	3272 51
+79	2021	0.6	1	1992 29
+80	1254	0.6	1	1227 27
+81	956	0.6	1	937 19
+82	815	0.6	1	804 11
+83	607	0.6	1	575 32
+84	403	0.6	1	379 24
+85	394	0.6	1	392 2
+86	407	0.6	1	374 33
+87	422	0.6	1	414 8
+88	369	0.6	1	341 28
+89	296	0.6	1	283 13
+90	132	0.6	1	129 3
+91	93	0.6	1	91 2
+92	87	0.6	1	78 9
+93	51	0.6	1	51
+94	53	0.6	1	37 16
+95	43	0.6	1	37 6
+96	48	0.6	1	28 20
+97	114	0.6	1	42 72
+98	104	0.6	1	73 31
+99	125	0.6	1	94 31
+100	240	0.6	1	232 8
+101	2163	0.6	1	2101 62
+
+
+RUN STATISTICS FOR INPUT FILE: ../phase2_fastq/lane2-s039-indexRPI9-GATCAG-TigSK_R1.fastq.gz
+=============================================
+41422134 sequences processed in total
+

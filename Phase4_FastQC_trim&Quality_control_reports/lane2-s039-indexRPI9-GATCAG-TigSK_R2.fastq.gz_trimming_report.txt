@@ -1,0 +1,153 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../phase2_fastq/lane2-s039-indexRPI9-GATCAG-TigSK_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.8.1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: --outdir ../phase2_fastq_trimmed_fastqc/
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8.1 with Python 2.7.8
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../phase2_fastq/lane2-s039-indexRPI9-GATCAG-TigSK_R2.fastq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1481.82 s (36 us/read; 1.68 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              41,422,134
+Reads with adapters:                15,638,066 (37.8%)
+Reads written (passing filters):    41,422,134 (100.0%)
+
+Total basepairs processed: 4,183,635,534 bp
+Quality-trimmed:              28,462,382 bp (0.7%)
+Total written (filtered):  4,129,678,522 bp (98.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 15638066 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 24.6%
+  C: 42.8%
+  G: 8.7%
+  T: 23.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	11609789	10355533.5	0	11609789
+2	1735237	2588883.4	0	1735237
+3	614066	647220.8	0	614066
+4	317104	161805.2	0	317104
+5	957163	40451.3	0	957163
+6	401649	10112.8	0	401649
+7	324	2528.2	0	324
+8	40	632.1	0	40
+9	266	158.0	0	62 204
+10	417	39.5	1	4 413
+11	218	9.9	1	27 191
+12	67	2.5	1	1 66
+13	54	0.6	1	4 50
+14	68	0.6	1	23 45
+15	19	0.6	1	1 18
+16	12	0.6	1	1 11
+17	2	0.6	1	0 2
+18	3	0.6	1	1 2
+19	19	0.6	1	5 14
+20	43	0.6	1	0 43
+21	15	0.6	1	2 13
+22	9	0.6	1	4 5
+23	45	0.6	1	2 43
+24	14	0.6	1	3 11
+25	14	0.6	1	1 13
+27	7	0.6	1	3 4
+28	53	0.6	1	1 52
+30	15	0.6	1	3 12
+31	2	0.6	1	1 1
+32	21	0.6	1	3 18
+33	6	0.6	1	2 4
+34	22	0.6	1	2 20
+35	21	0.6	1	1 20
+36	53	0.6	1	0 53
+37	11	0.6	1	1 10
+38	64	0.6	1	2 62
+39	4	0.6	1	0 4
+40	23	0.6	1	0 23
+41	5	0.6	1	0 5
+42	15	0.6	1	1 14
+43	35	0.6	1	1 34
+44	4	0.6	1	1 3
+45	8	0.6	1	1 7
+46	5	0.6	1	2 3
+47	16	0.6	1	0 16
+48	23	0.6	1	0 23
+49	36	0.6	1	0 36
+50	20	0.6	1	0 20
+51	7	0.6	1	2 5
+52	44	0.6	1	1 43
+53	39	0.6	1	0 39
+54	9	0.6	1	0 9
+55	2	0.6	1	0 2
+56	13	0.6	1	0 13
+57	4	0.6	1	0 4
+58	5	0.6	1	1 4
+59	8	0.6	1	0 8
+60	24	0.6	1	0 24
+61	56	0.6	1	1 55
+62	16	0.6	1	0 16
+63	25	0.6	1	0 25
+64	31	0.6	1	0 31
+65	24	0.6	1	0 24
+66	21	0.6	1	0 21
+67	23	0.6	1	0 23
+68	14	0.6	1	2 12
+69	74	0.6	1	3 71
+70	20	0.6	1	0 20
+71	3	0.6	1	0 3
+72	3	0.6	1	1 2
+74	7	0.6	1	0 7
+75	2	0.6	1	0 2
+77	18	0.6	1	0 18
+78	1	0.6	1	0 1
+79	9	0.6	1	0 9
+80	29	0.6	1	0 29
+81	9	0.6	1	0 9
+83	1	0.6	1	0 1
+85	17	0.6	1	0 17
+86	35	0.6	1	0 35
+87	6	0.6	1	1 5
+88	20	0.6	1	13 7
+89	7	0.6	1	0 7
+90	17	0.6	1	0 17
+91	32	0.6	1	0 32
+92	32	0.6	1	0 32
+93	56	0.6	1	0 56
+94	27	0.6	1	0 27
+95	16	0.6	1	0 16
+96	9	0.6	1	0 9
+97	48	0.6	1	0 48
+98	35	0.6	1	0 35
+99	17	0.6	1	0 17
+100	23	0.6	1	0 23
+101	2	0.6	1	1 1
+
+
+RUN STATISTICS FOR INPUT FILE: ../phase2_fastq/lane2-s039-indexRPI9-GATCAG-TigSK_R2.fastq.gz
+=============================================
+41422134 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 41422134
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 131959 (0.32%)
