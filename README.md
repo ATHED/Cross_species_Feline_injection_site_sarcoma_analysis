@@ -23,7 +23,9 @@ to manage clinically and little is known about the molecular basis of its pathog
 profiling has proved valuable for gaining insights into the molecular basis of cancers and for identifying new
 therapeutic targets. Here, we report the first study of the FISS transcriptome and the first cross-species comparison
 of the FISS transcriptome with those of anatomically similar soft-tissue sarcomas in dogs and humans.
-Methods: Using high-throughput short-read paired-end sequencing, we comparatively profiled FISS tumors vs.
+
+**Methods:** 
+Using high-throughput short-read paired-end sequencing, we comparatively profiled FISS tumors vs.
 normal tissue samples as well as cultured FISS-derived cell lines vs. skin-derived fibroblasts. We analyzed the mRNA-
 seq data to compare cancer/normal gene expression level, identify biological processes and molecular pathways
 that are associated with the pathogenesis of FISS, and identify multimegabase genomic regions of potential
