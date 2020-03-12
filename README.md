@@ -33,19 +33,20 @@ expression ratios.
 
 **Results:** 
 We found: 
-- (1) substantial differential expression biases in feline orthologs of human oncogenes and tumor
+- (1) Substantial differential expression biases in feline orthologs of human oncogenes and tumor
 suppressor genes suggesting conserved functions in FISS; 
-- (2) a genomic region with recurrent SCNA in human
+- (2) A genomic region with recurrent SCNA in human
 sarcomas that is syntenic to a feline genomic region of probable SCNA in FISS;
-- (3) significant overlap of the
+- (3) Significant overlap of the
 pattern of transcriptional alterations in FISS with the patterns of transcriptional alterations in soft-tissue sarcomas in
 humans and in dogs. We demonstrated that a protein, BarH-like homeobox 1 (BARX1), has increased expression in
 FISS cells at the protein level. We identified 11 drugs and four target proteins as potential new therapies for FISS,
 and validated that one of them (GSK-1059615) inhibits growth of FISS-derived cells in vitro.
 
 **Conclusions:** 
-(1) Window-based analysis of mRNA-seq data can uncover SCNAs. (2) The transcriptome of FISS-
-derived cells is highly consistent with that of FISS tumors. (3) FISS is highly similar to soft-tissue sarcomas in dogs
+- (1) Window-based analysis of mRNA-seq data can uncover SCNAs. 
+- (2) The transcriptome of FISS-derived cells is highly consistent with that of FISS tumors. 
+- (3) FISS is highly similar to soft-tissue sarcomas in dogs
 and humans, at the level of gene expression. This work underscores the potential utility of comparative oncology in
 improving understanding and treatment of FISS.
 
