@@ -1,0 +1,14 @@
+1009_normal_starAligned.sortedByCoord.out.bam
+1009_sarcoma_starAligned.sortedByCoord.out.bam
+1033_sarcoma_starAligned.sortedByCoord.out.bam
+1093_sarcoma_starAligned.sortedByCoord.out.bam
+lane2-s031-indexRPI1-ATCACG-Ela-C_starAligned.sortedByCoord.out.bam
+lane2-s032-indexRPI2-CGATGT-Ela-SFN_starAligned.sortedByCoord.out.bam
+lane2-s033-indexRPI3-TTAGGC-Kaiser-C_starAligned.sortedByCoord.out.bam
+lane2-s034-indexRPI4-TGACCA-Kaiser-SFN_starAligned.sortedByCoord.out.bam
+lane2-s035-indexRPI5-ACAGTG-Tig-Skin-Fib-C_starAligned.sortedByCoord.out.bam
+lane2-s036-indexRPI6-GCCAAT-Tig-Skin-Fib-SFN_starAligned.sortedByCoord.out.bam
+lane2-s037-indexRPI7-CAGATC-LB-Skin-Fib-C_starAligned.sortedByCoord.out.bam
+lane2-s038-indexRPI8-ACTTGA-LB-Skin-Fib-SFN_starAligned.sortedByCoord.out.bam
+lane2-s039-indexRPI9-GATCAG-TigSK_starAligned.sortedByCoord.out.bam
+lane2-s040-indexRPI10-TAGCTT-LB-Skin_starAligned.sortedByCoord.out.bam
