@@ -1,0 +1,12 @@
+Status	/nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1009_normal_starAligned.sortedByCoord.out.bam	/nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1009_sarcoma_starAligned.sortedByCoord.out.bam	/nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1033_sarcoma_starAligned.sortedByCoord.out.bam	/nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1093_sarcoma_starAligned.sortedByCoord.out.bam
+Assigned	97742353	18632539	27894515	28601384
+Unassigned_Ambiguity	1806046	283959	774364	704712
+Unassigned_MultiMapping	0	0	0	0
+Unassigned_NoFeatures	67163113	106577142	116105954	100704167
+Unassigned_Unmapped	57048452	28926962	39392687	34746633
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_Secondary	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0
+Unassigned_Duplicate	0	0	0	0

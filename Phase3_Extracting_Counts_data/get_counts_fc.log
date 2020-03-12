@@ -1,0 +1,71 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.5.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                           P /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/10 ... ||
+||                           P /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/10 ... ||
+||                           P /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/10 ... ||
+||                           P /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/10 ... ||
+||                                                                            ||
+||             Output file : counts.txt                                       ||
+||                 Summary : counts.txt.summary                               ||
+||              Annotation : /nfs1/BIOMED/Ramsey_Lab/weiq/RNAseq/RNAseqda ... ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 10                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||       Overlapping bases : 0.0%                                             ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /nfs1/BIOMED/Ramsey_Lab/weiq/RNAseq/RNAseqdata/re ... ||
+||    Features : 205537                                                       ||
+||    Meta-features : 21890                                                   ||
+||    Chromosomes/contigs : 258                                               ||
+||                                                                            ||
+|| Process BAM file /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1009_normal_s ... ||
+||    Paired-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 223759964                                                 ||
+||    Successfully assigned reads : 97742353 (43.7%)                          ||
+||    Running time : 25.39 minutes                                            ||
+||                                                                            ||
+|| Process BAM file /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1009_sarcoma_ ... ||
+||    Paired-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 154420602                                                 ||
+||    Successfully assigned reads : 18632539 (12.1%)                          ||
+||    Running time : 17.09 minutes                                            ||
+||                                                                            ||
+|| Process BAM file /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1033_sarcoma_ ... ||
+||    Paired-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 184167520                                                 ||
+||    Successfully assigned reads : 27894515 (15.1%)                          ||
+||    Running time : 20.57 minutes                                            ||
+||                                                                            ||
+|| Process BAM file /nfs1/BIOMED/Ramsey_Lab/weiq/phase1_bam/1093_sarcoma_ ... ||
+||    Paired-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 164756896                                                 ||
+||    Successfully assigned reads : 28601384 (17.4%)                          ||
+||    Running time : 18.24 minutes                                            ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
