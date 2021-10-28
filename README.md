@@ -8,6 +8,20 @@ species mRNA-sequencing approach", Wei et al. BMC Cancer
 You can find full text of my paper on this link
 https://doi.org/10.1186/s12885-019-5501-z
 
+You can cite my paper using the following bibtex citation:
+```
+@article{article,
+author = {Wei, Qi and Ramsey, Stephen and Larson, Maureen and Berlow, Noah and Ochola, Donasian and Shiprack, Christopher and Kashyap, Amita and Seguin, Bernard and Keller, Charles and Löhr, Christiane},
+year = {2019},
+month = {04},
+pages = {},
+title = {Elucidating the transcriptional program of feline injection-site sarcoma using a cross-species mRNA-sequencing approach},
+volume = {19},
+journal = {BMC Cancer},
+doi = {10.1186/s12885-019-5501-z}
+}
+```
+
 **Elucidating the transcriptional program of
 feline injection-site sarcoma using a cross-
 species mRNA-sequencing approach**
