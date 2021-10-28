@@ -1,4 +1,4 @@
-# Cross_species_Feline_injection_site_sarcoma_analysis
+# Cross species Feline injection site sarcoma (FISS) analysis
 
 This is the repositary for codes for each phases of analysis of *"Elucidating the transcriptional program of feline injection-site sarcoma using a cross-
 species mRNA-sequencing approach", Wei et al. BMC Cancer
@@ -63,5 +63,5 @@ and validated that one of them (GSK-1059615) inhibits growth of FISS-derived cel
 and humans, at the level of gene expression. This work underscores the potential utility of comparative oncology in
 improving understanding and treatment of FISS.
 
-## Keywords: Sarcoma, Comparative oncology, mRNA-seq, Feline, Transcriptome
+Keywords: Sarcoma, Comparative oncology, mRNA-seq, Feline, Transcriptome
 
