@@ -1,7 +1,6 @@
 # Cross_species_Feline_injection_site_sarcoma_analysis
 
-This is the repositary for codes for each phases of analysis of *"Elucidating the transcriptional program of
-feline injection-site sarcoma using a cross-
+This is the repositary for codes for each phases of analysis of *"Elucidating the transcriptional program of feline injection-site sarcoma using a cross-
 species mRNA-sequencing approach", Wei et al. BMC Cancer
 (2019) 19:311*
 
@@ -22,9 +21,7 @@ doi = {10.1186/s12885-019-5501-z}
 }
 ```
 
-## Elucidating the transcriptional program of
-feline injection-site sarcoma using a cross-
-species mRNA-sequencing approach
+## Elucidating the transcriptional program of feline injection-site sarcoma using a cross-species mRNA-sequencing approach
 
 Qi Wei , Stephen A. Ramsey , Maureen K. Larson , Noah E. Berlow, Donasian Ochola, Christopher Shiprack,
 Amita Kashyap, Bernard Séguin, Charles Keller and Christiane V. Löhr
