@@ -56,6 +56,8 @@ humans and in dogs. We demonstrated that a protein, BarH-like homeobox 1 (BARX1)
 FISS cells at the protein level. We identified 11 drugs and four target proteins as potential new therapies for FISS,
 and validated that one of them (GSK-1059615) inhibits growth of FISS-derived cells in vitro.
 
+![Image of Figure 6](https://github.com/ATHED/Cross_species_Feline_injection_site_sarcoma_analysis/blob/master/images/FISS-figure6.png)
+
 ## Conclusions:
 - (1) Window-based analysis of mRNA-seq data can uncover SCNAs. 
 - (2) The transcriptome of FISS-derived cells is highly consistent with that of FISS tumors. 
